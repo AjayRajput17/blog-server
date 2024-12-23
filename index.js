@@ -9,10 +9,11 @@ import blogRoutes from './routes/blogs.js';
 dotenv.config();
 const app = express();
 const port = process.env.PORT || 5000;
+app.use(express.static('build'))
 
 app.use(express.json({limit: "10mb"}));
 app.use(cors({
-  origin: ['http://localhost:3000', 'https://blog-app-mern-drab.vercel.app'],
+  origin: ['http://localhost:3000', 'https://blog-app-mern-drab.vercel.app','http://localhost:3000','https://blog-server-9z66.onrender.com'],
   credentials: true,
 }));
 app.use(cookieParser());
