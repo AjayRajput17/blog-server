@@ -11,11 +11,17 @@ const app = express();
 const port = process.env.PORT || 5000;
 
 app.use(express.json({limit: "10mb"}));
+// app.use(cors({
+//   // origin: ['http://localhost:3000'],
+//   origin: ['https://3.110.92.43'],
+//   credentials: true,
+// }));
+
 app.use(cors({
-  // origin: ['http://localhost:3000'],
-  origin: ['https://3.110.92.43'],
+  origin: '*',
   credentials: true,
 }));
+
 app.use(cookieParser());
 app.use(express.urlencoded({limit: '10mb', extended: true}));
 
