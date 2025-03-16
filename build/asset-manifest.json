@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/static/css/main.b360a46e.css",
+    "main.js": "/static/js/main.506db849.js",
+    "static/js/951.b50b3974.chunk.js": "/static/js/951.b50b3974.chunk.js",
+    "static/js/667.0475cbec.chunk.js": "/static/js/667.0475cbec.chunk.js",
+    "static/js/829.8f04e26e.chunk.js": "/static/js/829.8f04e26e.chunk.js",
+    "static/js/116.78f5e4d6.chunk.js": "/static/js/116.78f5e4d6.chunk.js",
+    "static/js/982.abc40dbe.chunk.js": "/static/js/982.abc40dbe.chunk.js",
+    "static/js/588.6818d373.chunk.js": "/static/js/588.6818d373.chunk.js",
+    "static/js/525.5ad8dff2.chunk.js": "/static/js/525.5ad8dff2.chunk.js",
+    "static/js/482.a70cf4fc.chunk.js": "/static/js/482.a70cf4fc.chunk.js",
+    "static/js/770.b08a5ba5.chunk.js": "/static/js/770.b08a5ba5.chunk.js",
+    "static/js/53.10b194f1.chunk.js": "/static/js/53.10b194f1.chunk.js",
+    "static/js/675.86ffe8ba.chunk.js": "/static/js/675.86ffe8ba.chunk.js",
+    "static/media/contact_app.png": "/static/media/contact_app.dcc69a6be0a714c050c9.png",
+    "index.html": "/index.html",
+    "main.b360a46e.css.map": "/static/css/main.b360a46e.css.map",
+    "main.506db849.js.map": "/static/js/main.506db849.js.map",
+    "951.b50b3974.chunk.js.map": "/static/js/951.b50b3974.chunk.js.map",
+    "667.0475cbec.chunk.js.map": "/static/js/667.0475cbec.chunk.js.map",
+    "829.8f04e26e.chunk.js.map": "/static/js/829.8f04e26e.chunk.js.map",
+    "116.78f5e4d6.chunk.js.map": "/static/js/116.78f5e4d6.chunk.js.map",
+    "982.abc40dbe.chunk.js.map": "/static/js/982.abc40dbe.chunk.js.map",
+    "588.6818d373.chunk.js.map": "/static/js/588.6818d373.chunk.js.map",
+    "525.5ad8dff2.chunk.js.map": "/static/js/525.5ad8dff2.chunk.js.map",
+    "482.a70cf4fc.chunk.js.map": "/static/js/482.a70cf4fc.chunk.js.map",
+    "770.b08a5ba5.chunk.js.map": "/static/js/770.b08a5ba5.chunk.js.map",
+    "53.10b194f1.chunk.js.map": "/static/js/53.10b194f1.chunk.js.map",
+    "675.86ffe8ba.chunk.js.map": "/static/js/675.86ffe8ba.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b360a46e.css",
+    "static/js/main.506db849.js"
+  ]
+}
