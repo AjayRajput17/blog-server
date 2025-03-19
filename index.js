@@ -11,16 +11,16 @@ const app = express();
 const port = process.env.PORT || 5000;
 
 app.use(express.json({limit: "10mb"}));
-// app.use(cors({
-//   // origin: ['http://localhost:3000'],
-//   origin: ['https://3.110.92.43','http://localhost:3000'],
-//   credentials: true,
-// }));
-
 app.use(cors({
-  origin: '*',
+  // origin: ['http://localhost:3000'],
+  origin: ['https://3.110.92.43','http://localhost:3000','http://blog-frontend1705.s3-website.ap-south-1.amazonaws.com'],
   credentials: true,
 }));
+
+// app.use(cors({
+//   origin: '*',
+//   credentials: true,
+// }));
 
 app.use(cookieParser());
 app.use(express.urlencoded({limit: '10mb', extended: true}));
